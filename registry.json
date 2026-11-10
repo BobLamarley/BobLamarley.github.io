@@ -1,0 +1,49 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "name": "thomas-mignon-toolkit",
+  "homepage": "https://github.com/BobLamarley/BobLamarley.github.io",
+  "items": [
+    {
+      "name": "button",
+      "type": "registry:ui",
+      "title": "Button",
+      "description": "Accessible React button with primary, secondary, ghost and accent variants, styled with Tailwind CSS.",
+      "dependencies": ["react"],
+      "files": [
+        {
+          "path": "registry/default/ui/button.jsx",
+          "type": "registry:ui",
+          "target": "src/components/ui/button.jsx"
+        }
+      ]
+    },
+    {
+      "name": "badge",
+      "type": "registry:ui",
+      "title": "Badge",
+      "description": "Compact status and taxonomy badge with neutral, green and blue variants.",
+      "dependencies": ["react"],
+      "files": [
+        {
+          "path": "registry/default/ui/badge.jsx",
+          "type": "registry:ui",
+          "target": "src/components/ui/badge.jsx"
+        }
+      ]
+    },
+    {
+      "name": "card",
+      "type": "registry:ui",
+      "title": "Card",
+      "description": "Composable React card with header, title, description, content and footer primitives.",
+      "dependencies": ["react"],
+      "files": [
+        {
+          "path": "registry/default/ui/card.jsx",
+          "type": "registry:ui",
+          "target": "src/components/ui/card.jsx"
+        }
+      ]
+    }
+  ]
+}
